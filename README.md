@@ -1,6 +1,6 @@
 This repo is my practices of Haskell.
 
-It includes GADTs, I/O and parallel programming. 
+It includes quickCheck,GADTs, I/O and parallel programming. 
 
 Ass1 is a plain Haskell programming assignment, it's about fundamental 
 Haskell programming skills.

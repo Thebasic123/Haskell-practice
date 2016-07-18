@@ -1,0 +1,5 @@
+Ex01 is using Haskell to draw lines and graph under LineGraphics library 
+Ex02 is a practice of QuickCheck 
+Ex03 is about dereference of data structure 
+Ex05-07 are GADT implementation of different data structures 
+Ex08-09 are exercises of parallel programming in Haskell, mainly focused on par and pseq keywords
