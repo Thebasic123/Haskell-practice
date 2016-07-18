@@ -1,0 +1,41 @@
+module Ex01 where
+
+  -- needed to display the picture in the playground
+import Codec.Picture
+
+  -- our line graphics programming interface
+import LineGraphics
+
+import Graphics.Rasterific
+
+
+-- Part 1
+
+house :: Path
+house = [(300, 750), (300, 450), (270, 450), (500, 200),
+         (730, 450), (700, 450), (700, 750)]
+
+door :: Path
+door = [(420, 750), (420, 550), (580, 550), (580, 750)]
+
+smoke :: Path
+smoke = [(635,240),(625,230),(635,220),(625,210)]
+
+grey :: Colour
+grey = (255, 255, 255, 128)
+
+scene :: Picture
+scene = [(lightgreen, house), (red, door),(smoke,grey)]
+
+
+-- Part 2
+
+scaleLine :: Float -> Line -> Line
+scaleLine = undefined
+
+nestedSquares :: Float      -- scale factor
+              -> Int        -- number of squares
+              -> Colour     -- line colour
+              -> Line       -- initial diagonal
+              -> Picture
+nestedSquares = undefined
